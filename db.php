@@ -1,8 +1,8 @@
 <?php
-	$dbhost	= "sql103.epizy.com";
-	$dbuser = "epiz_30096549";
-	$dbpass = "LSMoU4rmK6F";
-	$dbname = "epiz_30096549_assignment";
+	$dbhost	= "localhost";
+	$dbuser = "root";
+	$dbpass = "";
+	$dbname = "assignment";
 
 	$connection = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
 
